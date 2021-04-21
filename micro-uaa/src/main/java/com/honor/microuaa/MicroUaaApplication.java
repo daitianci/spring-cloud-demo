@@ -1,4 +1,4 @@
-package com.honor.microservice;
+package com.honor.microuaa;
 
 import org.mybatis.spring.annotation.MapperScan;
 import org.springframework.boot.SpringApplication;
@@ -10,10 +10,10 @@ import org.springframework.context.annotation.ComponentScan;
 @EnableDiscoveryClient
 @MapperScan(basePackages = {"com.honor"})
 @ComponentScan(basePackages = {"com.honor"})
-public class MicroServiceApplication {
+public class MicroUaaApplication {
 
     public static void main(String[] args) {
-        SpringApplication.run(MicroServiceApplication.class, args);
+        SpringApplication.run(MicroUaaApplication.class, args);
     }
 
 }
