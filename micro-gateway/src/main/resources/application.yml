@@ -10,4 +10,4 @@ spring:
 #          uri: http://127.0.0.1:9001/   # 目标 URI，路由到微服务的地址
           uri: lb://micro-service   # 目标 URI，路由到微服务的地址
           predicates:              # 请求转发判断条件
-            - Path=/aservice/**    # 匹配对应 URL 的请求，将匹配到的请求追加在目标 URI 之后
+            - Path=/api/**    # 匹配对应 URL 的请求，将匹配到的请求追加在目标 URI 之后

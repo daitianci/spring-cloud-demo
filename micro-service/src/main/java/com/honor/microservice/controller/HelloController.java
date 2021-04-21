@@ -12,7 +12,7 @@ import javax.annotation.Resource;
 import java.util.Map;
 
 @RestController
-@RequestMapping("/aservice")
+@RequestMapping("/api")
 public class HelloController {
     @Resource
     TokenStore tokenStore;
