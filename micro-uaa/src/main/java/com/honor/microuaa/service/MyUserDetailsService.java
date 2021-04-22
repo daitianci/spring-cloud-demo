@@ -1,7 +1,7 @@
-package com.honor.springsecurity.service;
+package com.honor.microuaa.service;
 
-import com.honor.springsecurity.dao.MyUserDetailsServiceMapper;
-import com.honor.springsecurity.model.MyUserDetails;
+import com.honor.microuaa.dao.MyUserDetailsServiceMapper;
+import com.honor.microuaa.model.MyUserDetails;
 import org.springframework.security.core.authority.AuthorityUtils;
 import org.springframework.security.core.userdetails.UserDetails;
 import org.springframework.security.core.userdetails.UserDetailsService;

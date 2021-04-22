@@ -1,6 +1,6 @@
 package com.honor.microuaa.config;
 
-import com.honor.springsecurity.service.MyUserDetailsService;
+import com.honor.microuaa.service.MyUserDetailsService;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.security.authentication.AuthenticationManager;
 import org.springframework.security.crypto.password.PasswordEncoder;

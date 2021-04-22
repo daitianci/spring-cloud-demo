@@ -1,6 +1,6 @@
-package com.honor.springsecurity.dao;
+package com.honor.microuaa.dao;
 
-import com.honor.springsecurity.model.MyUserDetails;
+import com.honor.microuaa.model.MyUserDetails;
 import org.apache.ibatis.annotations.Param;
 import org.apache.ibatis.annotations.Select;
 import org.apache.ibatis.annotations.Update;

@@ -1,4 +1,4 @@
-package com.honor.springsecurity.model;
+package com.honor.microuaa.model;
 
 import org.springframework.security.core.GrantedAuthority;
 import org.springframework.security.core.userdetails.UserDetails;
